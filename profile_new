@@ -1,0 +1,11 @@
+goos: linux
+goarch: amd64
+pkg: main.go
+cpu: 12th Gen Intel(R) Core(TM) i7-12700
+BenchmarkCopy-20    	26737345	        45.24 ns/op	     192 B/op	       1 allocs/op
+BenchmarkCopy-20    	26524502	        47.07 ns/op	     192 B/op	       1 allocs/op
+BenchmarkCopy-20    	26391621	        48.26 ns/op	     192 B/op	       1 allocs/op
+BenchmarkCopy-20    	26735781	        45.60 ns/op	     192 B/op	       1 allocs/op
+BenchmarkCopy-20    	27609105	        45.55 ns/op	     192 B/op	       1 allocs/op
+PASS
+ok  	main.go	6.449s
